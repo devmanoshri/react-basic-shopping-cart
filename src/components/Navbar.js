@@ -52,7 +52,7 @@ function NavbarMenu() {
               })}
               <Row>
                 <Col>
-                  <h2>Total : {cart.getTotalCost().toFixed(2)}</h2>
+                  <h2>Total : ${cart.getTotalCost().toFixed(2)}</h2>
                 </Col>
                 <Col className="pe-0">
                   <Button variant="success"> Checkout</Button>
